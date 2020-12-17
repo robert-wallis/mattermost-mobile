@@ -218,8 +218,6 @@ PODS:
     - React
   - react-native-image-picker (2.3.4):
     - React-Core
-  - react-native-local-auth (1.6.0):
-    - React
   - react-native-mmkv-storage (0.4.1):
     - MMKV (= 1.2.4)
     - React
@@ -227,8 +225,6 @@ PODS:
     - React-Core
   - react-native-notifications (3.4.0):
     - React-Core
-  - react-native-passcode-status (1.1.2):
-    - React
   - react-native-safe-area (0.5.1):
     - React
   - react-native-safe-area-context (3.1.9):
@@ -402,11 +398,9 @@ DEPENDENCIES:
   - react-native-document-picker (from `../node_modules/react-native-document-picker`)
   - react-native-hw-keyboard-event (from `../node_modules/react-native-hw-keyboard-event`)
   - react-native-image-picker (from `../node_modules/react-native-image-picker`)
-  - react-native-local-auth (from `../node_modules/react-native-local-auth`)
   - react-native-mmkv-storage (from `../node_modules/react-native-mmkv-storage`)
   - "react-native-netinfo (from `../node_modules/@react-native-community/netinfo`)"
   - react-native-notifications (from `../node_modules/react-native-notifications`)
-  - react-native-passcode-status (from `../node_modules/react-native-passcode-status`)
   - react-native-safe-area (from `../node_modules/react-native-safe-area`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - react-native-video (from `../node_modules/react-native-video`)
@@ -513,16 +507,12 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-hw-keyboard-event"
   react-native-image-picker:
     :path: "../node_modules/react-native-image-picker"
-  react-native-local-auth:
-    :path: "../node_modules/react-native-local-auth"
   react-native-mmkv-storage:
     :path: "../node_modules/react-native-mmkv-storage"
   react-native-netinfo:
     :path: "../node_modules/@react-native-community/netinfo"
   react-native-notifications:
     :path: "../node_modules/react-native-notifications"
-  react-native-passcode-status:
-    :path: "../node_modules/react-native-passcode-status"
   react-native-safe-area:
     :path: "../node_modules/react-native-safe-area"
   react-native-safe-area-context:
@@ -630,11 +620,9 @@ SPEC CHECKSUMS:
   react-native-document-picker: 37b870da56cf33b8432212842e3f374b9fe98889
   react-native-hw-keyboard-event: b517cefb8d5c659a38049c582de85ff43337dc53
   react-native-image-picker: 32d1ad2c0024ca36161ae0d5c2117e2d6c441f11
-  react-native-local-auth: 359af242caa1e5c501ac9dfe33b1e238ad8f08c6
   react-native-mmkv-storage: ceaec36b6967c680e60f3be5e91ba3f66d488697
   react-native-netinfo: e36c1bb6df27ab84aa933679b3f5bbf9d180b18f
   react-native-notifications: 1e4912c8f11741799c823f263beaf9f7f829955b
-  react-native-passcode-status: 88c4f6e074328bc278bd127646b6c694ad5a530a
   react-native-safe-area: e8230b0017d76c00de6b01e2412dcf86b127c6a3
   react-native-safe-area-context: 86612d2c9a9e94e288319262d10b5f93f0b395f5
   react-native-video: 8d97379f3c2322a569f1e27542ad1a646cad9444
@@ -652,7 +640,7 @@ SPEC CHECKSUMS:
   ReactNativeExceptionHandler: f1638ffd507ef1b1794af25884fa0eb30dd5c551
   ReactNativeKeyboardTrackingView: 02137fac3b2ebd330d74fa54ead48b14750a2306
   ReactNativeNavigation: c2dcda2b86e32090c443182206c915107d03106f
-  rn-fetch-blob: 17961aec08caae68bb8fc0e5b40f93b3acfa6932
+  rn-fetch-blob: f065bb7ab7fb48dd002629f8bdcb0336602d3cba
   RNCAsyncStorage: cb9a623793918c6699586281f0b51cbc38f046f9
   RNCClipboard: 5e299c6df8e0c98f3d7416b86ae563d3a9f768a3
   RNCMaskedView: f5c7d14d6847b7b44853f7acb6284c1da30a3459
