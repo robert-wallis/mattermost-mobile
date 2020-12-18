@@ -108,7 +108,7 @@ NSString* const NOTIFICATION_UPDATE_BADGE_ACTION = @"update_badge";
         NSString *identifier = [notificationRequest identifier];
         NSString* cId = [[notificationContent userInfo] objectForKey:@"channel_id"];
 
-        if ([cId isEqualToString: channelId]) {
+        if (cId && [cId isEqualToString: channelId]) {
           [notificationIds addObject:identifier];
         }
       }
